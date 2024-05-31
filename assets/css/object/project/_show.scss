@@ -1,0 +1,26 @@
+.p-show {
+    &__container {
+        width: 100%;
+        min-height: 100vh;
+
+        &.--red {
+            background-color: #f2323210;
+        }
+        &.--blue{
+            background-color: #0091e517;
+        }
+        &.--yellow{
+            background-color: #ffea0016;
+        }
+        &.--green{
+            background-color: #007e0014;
+        }
+        &.--orange{
+            background-color: #ffb2221b;
+        }
+    }
+
+    &__heading {
+        text-align: center;
+    }
+}
